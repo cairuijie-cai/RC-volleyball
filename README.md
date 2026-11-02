@@ -76,8 +76,8 @@
 
 ```bash
 git lfs install
-git clone https://github.com/cairuijie-cai/RC-.git
-cd RC-
+git clone https://github.com/cairuijie-cai/RC-volleyball.git
+cd RC-volleyball
 git lfs pull
 ```
 
