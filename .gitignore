@@ -1,0 +1,21 @@
+# Generated dependencies, local state and private configuration
+node_modules/
+.git/
+.next/
+.vinext/
+.wrangler/
+.sites-runtime/
+.cache/
+__pycache__/
+.env
+.env.*
+.dev.vars
+.dev.vars.*
+*.pem
+*.pfx
+*.key
+~$*
+*.pyc
+*.tsbuildinfo
+.DS_Store
+Thumbs.db

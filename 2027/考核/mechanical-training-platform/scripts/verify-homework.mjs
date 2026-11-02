@@ -1,0 +1,58 @@
+import {mkdir,writeFile} from 'node:fs/promises';
+import assert from 'node:assert/strict';
+import {randomUUID} from 'node:crypto';
+const base=process.env.VERIFY_BASE_URL||'http://127.0.0.1:5173';
+await mkdir('outputs',{recursive:true});
+const {browser}=await (await import('./browser-runtime.mjs')).launchBrowser();
+const context=await browser.newContext({viewport:{width:1440,height:960}}),page=await context.newPage(),results=[],errors=[];
+page.on('pageerror',e=>errors.push(e.message));let original;
+const native=Buffer.from([0,1,2,3,255,0,42,0,30]);
+const png=Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+aM9sAAAAASUVORK5CYII=','base64');
+try{
+ assert.equal((await context.request.get(base+'/api/files')).status(),401);
+ assert.equal((await context.request.post(base+'/api/files?studentId=x&name=x.sldprt',{data:native})).status(),401);results.push('未登录不能上传或查看作业文件');
+ await page.goto(base+'/signin-with-chatgpt?return_to=/',{waitUntil:'networkidle'});
+ await page.getByRole('heading',{name:'最终考核',exact:true}).waitFor();
+ original=await (await context.request.get(base+'/api/workspace')).json();
+ const legacy=structuredClone(original.data);delete legacy.homework;
+ assert.equal((await context.request.put(base+'/api/workspace',{data:{data:legacy,revision:original.revision}})).status(),200);results.push('旧记录和备份缺少作业字段时仍可保存');
+ let state=await (await context.request.get(base+'/api/workspace')).json();
+ const id=randomUUID(),other=randomUUID();state.data.students=[{id,name:'本机作业验证',experience:'零基础',hours:4,note:'仅本机测试'},{id:other,name:'另一位本机验证新人',experience:'零基础',hours:4,note:''}];state.data.records=[];state.data.homework=[];
+ assert.equal((await context.request.put(base+'/api/workspace',{data:{data:state.data,revision:state.revision}})).status(),200);
+ assert.equal((await context.request.post(base+'/api/files?studentId='+id+'&name=bad.exe',{data:native})).status(),400);
+ assert.equal((await context.request.post(base+'/api/files?studentId=missing&name=model.sldprt',{data:native})).status(),400);
+ assert.equal((await context.request.post(base+'/api/files?studentId='+id+'&name=large.zip',{data:Buffer.alloc(20*1024*1024+1)})).status(),413);results.push('拒绝不支持格式、未保存新人和超过 20 MB 的文件');
+ await page.reload({waitUntil:'networkidle'});await page.getByRole('heading',{name:'最终考核',exact:true}).waitFor();
+ await page.getByRole('navigation').getByRole('button',{name:'最终考核',exact:true}).click();
+ await page.getByRole('button',{name:'查看 / 上传',exact:true}).first().click();await page.getByRole('button',{name:'上传',exact:true}).first().click();
+ const dialog=page.getByRole('dialog');await dialog.getByLabel('新人',{exact:true}).selectOption(id);
+ await dialog.getByLabel('考核日期',{exact:true}).fill('2026-10-11');
+ await dialog.getByLabel('考核题目或对象',{exact:true}).fill('本机验证：当天草图与拉伸练习');
+ await dialog.getByText('检查与评分（可选）',{exact:true}).click();await dialog.getByLabel('检查状态',{exact:true}).selectOption('reviewed');
+ await dialog.getByLabel('作业分（0–100，可选）',{exact:true}).fill('90');
+ await dialog.getByLabel('检查反馈',{exact:true}).fill('仅测试上传与保存流程。');
+ await dialog.getByLabel('选择作业文件',{exact:true}).setInputFiles([{name:'测试模型.sldprt',mimeType:'application/octet-stream',buffer:native},{name:'测试截图.png',mimeType:'image/png',buffer:png}]);
+ let failScreenshot=true;
+ await page.route('**/api/files?*',route=>{if(route.request().method()==='POST'&&new URL(route.request().url()).searchParams.get('name')==='测试截图.png'&&failScreenshot){failScreenshot=false;return route.fulfill({status:503,contentType:'application/json',body:JSON.stringify({error:'截图上传暂时失败，请重试'})});}return route.continue();});
+ await dialog.getByRole('button',{name:'上传并保存',exact:true}).click();
+ await dialog.getByRole('alert').filter({hasText:'截图上传暂时失败'}).waitFor();
+ assert.equal(await dialog.locator('.upload-file').count(),2);results.push('部分上传失败时保留成功文件及待上传文件');
+ await dialog.getByRole('button',{name:'上传并保存',exact:true}).click();
+ await dialog.waitFor({state:'hidden'});await page.unroute('**/api/files?*');
+ state=await (await context.request.get(base+'/api/workspace')).json();assert.equal(state.data.homework.length,1);const work=state.data.homework[0];assert.equal(work.files.length,2);assert.equal(work.includeFinal,true);assert.equal(work.grade,90);results.push('最终考核原文件、截图及检查记录直接保存');
+ const list=(await (await context.request.get(base+'/api/files')).json()).files;
+ const nativeFile=list.find(f=>f.id===work.files[0]),imageFile=list.find(f=>f.id===work.files[1]);
+ const download=await context.request.get(base+'/api/files/'+nativeFile.id);assert.equal(download.status(),200);assert.deepEqual(await download.body(),native);assert.match(download.headers()['content-disposition'],/^attachment/);results.push('原文件下载字节与上传内容一致');
+ const preview=await context.request.get(base+'/api/files/'+imageFile.id+'?preview=1');assert.equal(preview.headers()['content-type'],'image/png');assert.deepEqual(await preview.body(),png);results.push('截图可通过受保护的接口预览');
+ const anonymous=await browser.newContext();assert.equal((await anonymous.request.get(base+'/api/files/'+nativeFile.id)).status(),401);await anonymous.close();
+ const wrong=structuredClone(state.data);wrong.homework[0].studentId=other;assert.equal((await context.request.put(base+'/api/workspace',{data:{data:wrong,revision:state.revision}})).status(),400);
+ const forged=structuredClone(state.data);forged.homework[0].files=[randomUUID()];assert.equal((await context.request.put(base+'/api/workspace',{data:{data:forged,revision:state.revision}})).status(),400);results.push('拒绝匿名下载、错配新人及伪造文件引用');
+ await page.reload({waitUntil:'networkidle'});await page.getByRole('navigation').getByRole('button',{name:'最终考核',exact:true}).click();await page.getByRole('button',{name:'查看 / 上传',exact:true}).first().click();await page.getByText('测试模型.sldprt',{exact:true}).waitFor();results.push('刷新后仍能查看作业记录与文件');
+ await page.screenshot({path:'outputs/homework-desktop.png',fullPage:true});
+ await page.setViewportSize({width:390,height:844});await page.getByRole('row').filter({has:page.getByRole('cell',{name:'三视图建模',exact:true})}).getByRole('button',{name:'编辑',exact:true}).click();await page.screenshot({path:'outputs/final-form-mobile.png',fullPage:true});assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await page.keyboard.press('Escape');results.push('手机最终材料上传表单无横向溢出');
+ assert.deepEqual(errors,[]);results.push('作业交互没有浏览器脚本错误');
+ await writeFile('outputs/homework-verification.json',JSON.stringify({passed:true,checks:results},null,2));console.log(JSON.stringify({passed:true,checks:results},null,2));
+}finally{
+ if(original){const state=await (await context.request.get(base+'/api/workspace')).json();await context.request.put(base+'/api/workspace',{data:{data:original.data,revision:state.revision}});}
+ await browser.close();
+}

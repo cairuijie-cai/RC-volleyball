@@ -1,0 +1,2304 @@
+[
+  {
+    "type": "line",
+    "start": [
+      5,
+      5
+    ],
+    "end": [
+      292,
+      5
+    ],
+    "layer": "FRAME"
+  },
+  {
+    "type": "line",
+    "start": [
+      292,
+      5
+    ],
+    "end": [
+      292,
+      205
+    ],
+    "layer": "FRAME"
+  },
+  {
+    "type": "line",
+    "start": [
+      292,
+      205
+    ],
+    "end": [
+      5,
+      205
+    ],
+    "layer": "FRAME"
+  },
+  {
+    "type": "line",
+    "start": [
+      5,
+      205
+    ],
+    "end": [
+      5,
+      5
+    ],
+    "layer": "FRAME"
+  },
+  {
+    "type": "text",
+    "point": [
+      12,
+      197
+    ],
+    "text": "31×31×19 L 形角码 / 尺寸参考图",
+    "height": 5,
+    "align": "left",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      12,
+      192
+    ],
+    "text": "依据商品图整理；棕色尺寸及底面孔位为假设，须实测核对。",
+    "height": 3.2,
+    "align": "left",
+    "layer": "TEXT"
+  },
+  {
+    "type": "line",
+    "start": [
+      137,
+      112
+    ],
+    "end": [
+      175,
+      112
+    ],
+    "layer": "OUTLINE"
+  },
+  {
+    "type": "line",
+    "start": [
+      175,
+      112
+    ],
+    "end": [
+      175,
+      174
+    ],
+    "layer": "OUTLINE"
+  },
+  {
+    "type": "line",
+    "start": [
+      175,
+      174
+    ],
+    "end": [
+      137,
+      174
+    ],
+    "layer": "OUTLINE"
+  },
+  {
+    "type": "line",
+    "start": [
+      137,
+      174
+    ],
+    "end": [
+      137,
+      112
+    ],
+    "layer": "OUTLINE"
+  },
+  {
+    "type": "line",
+    "start": [
+      137,
+      116
+    ],
+    "end": [
+      175,
+      116
+    ],
+    "layer": "OUTLINE"
+  },
+  {
+    "type": "circle",
+    "center": [
+      151,
+      134
+    ],
+    "radius": 6,
+    "layer": "OUTLINE"
+  },
+  {
+    "type": "line",
+    "start": [
+      143,
+      134
+    ],
+    "end": [
+      159,
+      134
+    ],
+    "layer": "CENTER"
+  },
+  {
+    "type": "line",
+    "start": [
+      151,
+      126
+    ],
+    "end": [
+      151,
+      142
+    ],
+    "layer": "CENTER"
+  },
+  {
+    "type": "text",
+    "point": [
+      158,
+      138
+    ],
+    "text": "A1",
+    "height": 2.8,
+    "align": "left",
+    "layer": "TEXT"
+  },
+  {
+    "type": "circle",
+    "center": [
+      161,
+      158
+    ],
+    "radius": 6,
+    "layer": "OUTLINE"
+  },
+  {
+    "type": "line",
+    "start": [
+      153,
+      158
+    ],
+    "end": [
+      169,
+      158
+    ],
+    "layer": "CENTER"
+  },
+  {
+    "type": "line",
+    "start": [
+      161,
+      150
+    ],
+    "end": [
+      161,
+      166
+    ],
+    "layer": "CENTER"
+  },
+  {
+    "type": "text",
+    "point": [
+      168,
+      162
+    ],
+    "text": "A2",
+    "height": 2.8,
+    "align": "left",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      156,
+      104
+    ],
+    "text": "主视图（竖直面）",
+    "height": 3.2,
+    "align": "center",
+    "layer": "TEXT"
+  },
+  {
+    "type": "line",
+    "start": [
+      137,
+      174.7
+    ],
+    "end": [
+      137,
+      183.4
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      175,
+      174.7
+    ],
+    "end": [
+      175,
+      183.4
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      137,
+      182
+    ],
+    "end": [
+      175,
+      182
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      137,
+      182
+    ],
+    "end": [
+      138.35,
+      181.58
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      137,
+      182
+    ],
+    "end": [
+      138.35,
+      182.42
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      175,
+      182
+    ],
+    "end": [
+      173.65,
+      182.42
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      175,
+      182
+    ],
+    "end": [
+      173.65,
+      181.58
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "text",
+    "point": [
+      156.0,
+      183.1
+    ],
+    "text": "19",
+    "height": 3,
+    "align": "center",
+    "layer": "DIM_TEXT"
+  },
+  {
+    "type": "dimension",
+    "kind": "horizontal",
+    "p1": [
+      137,
+      174
+    ],
+    "p2": [
+      175,
+      174
+    ],
+    "base": [
+      137,
+      182
+    ],
+    "text": "19",
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      175.7,
+      112
+    ],
+    "end": [
+      195.4,
+      112
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      175.7,
+      174
+    ],
+    "end": [
+      195.4,
+      174
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      194,
+      112
+    ],
+    "end": [
+      194,
+      174
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      194,
+      112
+    ],
+    "end": [
+      194.42,
+      113.35
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      194,
+      112
+    ],
+    "end": [
+      193.58,
+      113.35
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      194,
+      174
+    ],
+    "end": [
+      193.58,
+      172.65
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      194,
+      174
+    ],
+    "end": [
+      194.42,
+      172.65
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "text",
+    "point": [
+      195.6,
+      142.0
+    ],
+    "text": "31",
+    "height": 3,
+    "align": "left",
+    "layer": "DIM_TEXT"
+  },
+  {
+    "type": "dimension",
+    "kind": "vertical",
+    "p1": [
+      175,
+      112
+    ],
+    "p2": [
+      175,
+      174
+    ],
+    "base": [
+      194,
+      112
+    ],
+    "text": "31",
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      136.3,
+      158
+    ],
+    "end": [
+      125.6,
+      158
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      136.3,
+      174
+    ],
+    "end": [
+      125.6,
+      174
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      127,
+      158
+    ],
+    "end": [
+      127,
+      174
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      127,
+      158
+    ],
+    "end": [
+      127.42,
+      159.35
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      127,
+      158
+    ],
+    "end": [
+      126.58,
+      159.35
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      127,
+      174
+    ],
+    "end": [
+      126.58,
+      172.65
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      127,
+      174
+    ],
+    "end": [
+      127.42,
+      172.65
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "text",
+    "point": [
+      128.6,
+      165.0
+    ],
+    "text": "8",
+    "height": 3,
+    "align": "left",
+    "layer": "DIM_TEXT"
+  },
+  {
+    "type": "dimension",
+    "kind": "vertical",
+    "p1": [
+      137,
+      158
+    ],
+    "p2": [
+      137,
+      174
+    ],
+    "base": [
+      127,
+      158
+    ],
+    "text": "8",
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      136.3,
+      134
+    ],
+    "end": [
+      125.6,
+      134
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      136.3,
+      158
+    ],
+    "end": [
+      125.6,
+      158
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      127,
+      134
+    ],
+    "end": [
+      127,
+      158
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      127,
+      134
+    ],
+    "end": [
+      127.42,
+      135.35
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      127,
+      134
+    ],
+    "end": [
+      126.58,
+      135.35
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      127,
+      158
+    ],
+    "end": [
+      126.58,
+      156.65
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      127,
+      158
+    ],
+    "end": [
+      127.42,
+      156.65
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "text",
+    "point": [
+      128.6,
+      145.0
+    ],
+    "text": "12",
+    "height": 3,
+    "align": "left",
+    "layer": "DIM_TEXT"
+  },
+  {
+    "type": "dimension",
+    "kind": "vertical",
+    "p1": [
+      137,
+      134
+    ],
+    "p2": [
+      137,
+      158
+    ],
+    "base": [
+      127,
+      134
+    ],
+    "text": "12",
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      136.3,
+      116
+    ],
+    "end": [
+      125.6,
+      116
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      136.3,
+      134
+    ],
+    "end": [
+      125.6,
+      134
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      127,
+      116
+    ],
+    "end": [
+      127,
+      134
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      127,
+      116
+    ],
+    "end": [
+      127.42,
+      117.35
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      127,
+      116
+    ],
+    "end": [
+      126.58,
+      117.35
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      127,
+      134
+    ],
+    "end": [
+      126.58,
+      132.65
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      127,
+      134
+    ],
+    "end": [
+      127.42,
+      132.65
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "text",
+    "point": [
+      128.6,
+      124.0
+    ],
+    "text": "9#",
+    "height": 3,
+    "align": "left",
+    "layer": "DIM_TEXT"
+  },
+  {
+    "type": "dimension",
+    "kind": "vertical",
+    "p1": [
+      137,
+      116
+    ],
+    "p2": [
+      137,
+      134
+    ],
+    "base": [
+      127,
+      116
+    ],
+    "text": "9#",
+    "layer": "DIM"
+  },
+  {
+    "type": "text",
+    "point": [
+      135,
+      108
+    ],
+    "text": "O_A",
+    "height": 2.5,
+    "align": "left",
+    "layer": "TEXT"
+  },
+  {
+    "type": "line",
+    "start": [
+      151,
+      134
+    ],
+    "end": [
+      151,
+      189
+    ],
+    "layer": "ASSUMED"
+  },
+  {
+    "type": "line",
+    "start": [
+      161,
+      158
+    ],
+    "end": [
+      161,
+      189
+    ],
+    "layer": "ASSUMED"
+  },
+  {
+    "type": "line",
+    "start": [
+      151,
+      174.7
+    ],
+    "end": [
+      151,
+      188.4
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      161,
+      174.7
+    ],
+    "end": [
+      161,
+      188.4
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      151,
+      187
+    ],
+    "end": [
+      161,
+      187
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      151,
+      187
+    ],
+    "end": [
+      152.35,
+      186.58
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      151,
+      187
+    ],
+    "end": [
+      152.35,
+      187.42
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      161,
+      187
+    ],
+    "end": [
+      159.65,
+      187.42
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      161,
+      187
+    ],
+    "end": [
+      159.65,
+      186.58
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "text",
+    "point": [
+      156.0,
+      188.1
+    ],
+    "text": "≈5*",
+    "height": 3,
+    "align": "center",
+    "layer": "DIM_TEXT"
+  },
+  {
+    "type": "dimension",
+    "kind": "horizontal",
+    "p1": [
+      151,
+      174
+    ],
+    "p2": [
+      161,
+      174
+    ],
+    "base": [
+      151,
+      187
+    ],
+    "text": "≈5*",
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      34,
+      112
+    ],
+    "end": [
+      96,
+      112
+    ],
+    "layer": "OUTLINE"
+  },
+  {
+    "type": "line",
+    "start": [
+      96,
+      112
+    ],
+    "end": [
+      96,
+      174
+    ],
+    "layer": "OUTLINE"
+  },
+  {
+    "type": "line",
+    "start": [
+      96,
+      174
+    ],
+    "end": [
+      92,
+      174
+    ],
+    "layer": "OUTLINE"
+  },
+  {
+    "type": "line",
+    "start": [
+      92,
+      174
+    ],
+    "end": [
+      92,
+      116
+    ],
+    "layer": "OUTLINE"
+  },
+  {
+    "type": "line",
+    "start": [
+      92,
+      116
+    ],
+    "end": [
+      34,
+      116
+    ],
+    "layer": "OUTLINE"
+  },
+  {
+    "type": "line",
+    "start": [
+      34,
+      116
+    ],
+    "end": [
+      34,
+      112
+    ],
+    "layer": "OUTLINE"
+  },
+  {
+    "type": "line",
+    "start": [
+      34,
+      111.3
+    ],
+    "end": [
+      34,
+      101.6
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      96,
+      111.3
+    ],
+    "end": [
+      96,
+      101.6
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      34,
+      103
+    ],
+    "end": [
+      96,
+      103
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      34,
+      103
+    ],
+    "end": [
+      35.35,
+      102.58
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      34,
+      103
+    ],
+    "end": [
+      35.35,
+      103.42
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      96,
+      103
+    ],
+    "end": [
+      94.65,
+      103.42
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      96,
+      103
+    ],
+    "end": [
+      94.65,
+      102.58
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "text",
+    "point": [
+      65.0,
+      104.1
+    ],
+    "text": "31",
+    "height": 3,
+    "align": "center",
+    "layer": "DIM_TEXT"
+  },
+  {
+    "type": "dimension",
+    "kind": "horizontal",
+    "p1": [
+      34,
+      112
+    ],
+    "p2": [
+      96,
+      112
+    ],
+    "base": [
+      34,
+      103
+    ],
+    "text": "31",
+    "layer": "DIM"
+  },
+  {
+    "type": "text",
+    "point": [
+      65,
+      96
+    ],
+    "text": "右视轮廓（折弯圆角未绘）",
+    "height": 3,
+    "align": "center",
+    "layer": "TEXT"
+  },
+  {
+    "type": "line",
+    "start": [
+      93.6,
+      158
+    ],
+    "end": [
+      77,
+      162
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      77,
+      162
+    ],
+    "end": [
+      62,
+      162
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "text",
+    "point": [
+      61,
+      161.2
+    ],
+    "text": "t=2",
+    "height": 3,
+    "align": "right",
+    "layer": "TEXT"
+  },
+  {
+    "type": "line",
+    "start": [
+      93,
+      120
+    ],
+    "end": [
+      105,
+      126
+    ],
+    "layer": "ASSUMED"
+  },
+  {
+    "type": "text",
+    "point": [
+      105,
+      128
+    ],
+    "text": "R 未知",
+    "height": 2.8,
+    "align": "left",
+    "layer": "TEXT"
+  },
+  {
+    "type": "line",
+    "start": [
+      137,
+      35
+    ],
+    "end": [
+      175,
+      35
+    ],
+    "layer": "OUTLINE"
+  },
+  {
+    "type": "line",
+    "start": [
+      175,
+      35
+    ],
+    "end": [
+      175,
+      97
+    ],
+    "layer": "OUTLINE"
+  },
+  {
+    "type": "line",
+    "start": [
+      175,
+      97
+    ],
+    "end": [
+      137,
+      97
+    ],
+    "layer": "OUTLINE"
+  },
+  {
+    "type": "line",
+    "start": [
+      137,
+      97
+    ],
+    "end": [
+      137,
+      35
+    ],
+    "layer": "OUTLINE"
+  },
+  {
+    "type": "line",
+    "start": [
+      137,
+      93
+    ],
+    "end": [
+      175,
+      93
+    ],
+    "layer": "OUTLINE"
+  },
+  {
+    "type": "circle",
+    "center": [
+      151,
+      75
+    ],
+    "radius": 6,
+    "layer": "OUTLINE"
+  },
+  {
+    "type": "line",
+    "start": [
+      143,
+      75
+    ],
+    "end": [
+      159,
+      75
+    ],
+    "layer": "CENTER"
+  },
+  {
+    "type": "line",
+    "start": [
+      151,
+      67
+    ],
+    "end": [
+      151,
+      83
+    ],
+    "layer": "CENTER"
+  },
+  {
+    "type": "text",
+    "point": [
+      158,
+      79
+    ],
+    "text": "B1",
+    "height": 2.8,
+    "align": "left",
+    "layer": "TEXT"
+  },
+  {
+    "type": "circle",
+    "center": [
+      161,
+      51
+    ],
+    "radius": 6,
+    "layer": "OUTLINE"
+  },
+  {
+    "type": "line",
+    "start": [
+      153,
+      51
+    ],
+    "end": [
+      169,
+      51
+    ],
+    "layer": "CENTER"
+  },
+  {
+    "type": "line",
+    "start": [
+      161,
+      43
+    ],
+    "end": [
+      161,
+      59
+    ],
+    "layer": "CENTER"
+  },
+  {
+    "type": "text",
+    "point": [
+      168,
+      55
+    ],
+    "text": "B2",
+    "height": 2.8,
+    "align": "left",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      156,
+      26
+    ],
+    "text": "俯视图（底面孔位假设）",
+    "height": 3,
+    "align": "center",
+    "layer": "TEXT"
+  },
+  {
+    "type": "line",
+    "start": [
+      175.7,
+      35
+    ],
+    "end": [
+      195.4,
+      35
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      175.7,
+      97
+    ],
+    "end": [
+      195.4,
+      97
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      194,
+      35
+    ],
+    "end": [
+      194,
+      97
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      194,
+      35
+    ],
+    "end": [
+      194.42,
+      36.35
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      194,
+      35
+    ],
+    "end": [
+      193.58,
+      36.35
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      194,
+      97
+    ],
+    "end": [
+      193.58,
+      95.65
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      194,
+      97
+    ],
+    "end": [
+      194.42,
+      95.65
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "text",
+    "point": [
+      195.6,
+      65.0
+    ],
+    "text": "31",
+    "height": 3,
+    "align": "left",
+    "layer": "DIM_TEXT"
+  },
+  {
+    "type": "dimension",
+    "kind": "vertical",
+    "p1": [
+      175,
+      35
+    ],
+    "p2": [
+      175,
+      97
+    ],
+    "base": [
+      194,
+      35
+    ],
+    "text": "31",
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      137,
+      34.3
+    ],
+    "end": [
+      137,
+      20.6
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      175,
+      34.3
+    ],
+    "end": [
+      175,
+      20.6
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      137,
+      22
+    ],
+    "end": [
+      175,
+      22
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      137,
+      22
+    ],
+    "end": [
+      138.35,
+      21.58
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      137,
+      22
+    ],
+    "end": [
+      138.35,
+      22.42
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      175,
+      22
+    ],
+    "end": [
+      173.65,
+      22.42
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "line",
+    "start": [
+      175,
+      22
+    ],
+    "end": [
+      173.65,
+      21.58
+    ],
+    "layer": "DIM"
+  },
+  {
+    "type": "text",
+    "point": [
+      156.0,
+      23.1
+    ],
+    "text": "19",
+    "height": 3,
+    "align": "center",
+    "layer": "DIM_TEXT"
+  },
+  {
+    "type": "dimension",
+    "kind": "horizontal",
+    "p1": [
+      137,
+      35
+    ],
+    "p2": [
+      175,
+      35
+    ],
+    "base": [
+      137,
+      22
+    ],
+    "text": "19",
+    "layer": "DIM"
+  },
+  {
+    "type": "text",
+    "point": [
+      135,
+      100
+    ],
+    "text": "O_B",
+    "height": 2.5,
+    "align": "left",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      212,
+      175
+    ],
+    "text": "孔位表（单位 mm）",
+    "height": 3.4,
+    "align": "left",
+    "layer": "TEXT"
+  },
+  {
+    "type": "line",
+    "start": [
+      212,
+      136
+    ],
+    "end": [
+      284,
+      136
+    ],
+    "layer": "FRAME"
+  },
+  {
+    "type": "line",
+    "start": [
+      284,
+      136
+    ],
+    "end": [
+      284,
+      171
+    ],
+    "layer": "FRAME"
+  },
+  {
+    "type": "line",
+    "start": [
+      284,
+      171
+    ],
+    "end": [
+      212,
+      171
+    ],
+    "layer": "FRAME"
+  },
+  {
+    "type": "line",
+    "start": [
+      212,
+      171
+    ],
+    "end": [
+      212,
+      136
+    ],
+    "layer": "FRAME"
+  },
+  {
+    "type": "line",
+    "start": [
+      212,
+      143
+    ],
+    "end": [
+      284,
+      143
+    ],
+    "layer": "OUTLINE"
+  },
+  {
+    "type": "line",
+    "start": [
+      212,
+      150
+    ],
+    "end": [
+      284,
+      150
+    ],
+    "layer": "OUTLINE"
+  },
+  {
+    "type": "line",
+    "start": [
+      212,
+      157
+    ],
+    "end": [
+      284,
+      157
+    ],
+    "layer": "OUTLINE"
+  },
+  {
+    "type": "line",
+    "start": [
+      212,
+      164
+    ],
+    "end": [
+      284,
+      164
+    ],
+    "layer": "OUTLINE"
+  },
+  {
+    "type": "line",
+    "start": [
+      231,
+      136
+    ],
+    "end": [
+      231,
+      171
+    ],
+    "layer": "OUTLINE"
+  },
+  {
+    "type": "line",
+    "start": [
+      247,
+      136
+    ],
+    "end": [
+      247,
+      171
+    ],
+    "layer": "OUTLINE"
+  },
+  {
+    "type": "line",
+    "start": [
+      265,
+      136
+    ],
+    "end": [
+      265,
+      171
+    ],
+    "layer": "OUTLINE"
+  },
+  {
+    "type": "text",
+    "point": [
+      221.5,
+      166
+    ],
+    "text": "孔号",
+    "height": 2.9,
+    "align": "center",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      239,
+      166
+    ],
+    "text": "X*",
+    "height": 2.9,
+    "align": "center",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      256,
+      166
+    ],
+    "text": "Y",
+    "height": 2.9,
+    "align": "center",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      274.5,
+      166
+    ],
+    "text": "孔径",
+    "height": 2.9,
+    "align": "center",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      221.5,
+      159
+    ],
+    "text": "A1",
+    "height": 2.9,
+    "align": "center",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      239,
+      159
+    ],
+    "text": "7*",
+    "height": 2.9,
+    "align": "center",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      256,
+      159
+    ],
+    "text": "11#",
+    "height": 2.9,
+    "align": "center",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      274.5,
+      159
+    ],
+    "text": "φ6",
+    "height": 2.9,
+    "align": "center",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      221.5,
+      152
+    ],
+    "text": "A2",
+    "height": 2.9,
+    "align": "center",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      239,
+      152
+    ],
+    "text": "12*",
+    "height": 2.9,
+    "align": "center",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      256,
+      152
+    ],
+    "text": "23#",
+    "height": 2.9,
+    "align": "center",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      274.5,
+      152
+    ],
+    "text": "φ6",
+    "height": 2.9,
+    "align": "center",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      221.5,
+      145
+    ],
+    "text": "B1",
+    "height": 2.9,
+    "align": "center",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      239,
+      145
+    ],
+    "text": "7*",
+    "height": 2.9,
+    "align": "center",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      256,
+      145
+    ],
+    "text": "11*",
+    "height": 2.9,
+    "align": "center",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      274.5,
+      145
+    ],
+    "text": "φ6",
+    "height": 2.9,
+    "align": "center",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      221.5,
+      138
+    ],
+    "text": "B2",
+    "height": 2.9,
+    "align": "center",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      239,
+      138
+    ],
+    "text": "12*",
+    "height": 2.9,
+    "align": "center",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      256,
+      138
+    ],
+    "text": "23*",
+    "height": 2.9,
+    "align": "center",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      274.5,
+      138
+    ],
+    "text": "φ6",
+    "height": 2.9,
+    "align": "center",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      212,
+      129.0
+    ],
+    "text": "A 面：X 向右，Y 向上，原点 O_A。",
+    "height": 2.85,
+    "align": "left",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      212,
+      123.8
+    ],
+    "text": "B 面：X 向右，Y 向下，原点 O_B。",
+    "height": 2.85,
+    "align": "left",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      212,
+      118.6
+    ],
+    "text": "4 个孔均按 φ6 通孔示意。",
+    "height": 2.85,
+    "align": "left",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      212,
+      113.4
+    ],
+    "text": "* X=7/12 为居中错位约5的假设。",
+    "height": 2.85,
+    "align": "left",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      212,
+      108.2
+    ],
+    "text": "  商家未确认到侧边的准确距离。",
+    "height": 2.85,
+    "align": "left",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      212,
+      103.0
+    ],
+    "text": "* B 面纵向位置暂参照 A 面设置。",
+    "height": 2.85,
+    "align": "left",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      212,
+      97.8
+    ],
+    "text": "# A 面 Y=23/11 由31、8、12推算。",
+    "height": 2.85,
+    "align": "left",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      212,
+      92.6
+    ],
+    "text": "  9的起点暂按底板内表面理解；",
+    "height": 2.85,
+    "align": "left",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      212,
+      87.4
+    ],
+    "text": "  8+12+9=29，加板厚2得到31。",
+    "height": 2.85,
+    "align": "left",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      212,
+      82.19999999999999
+    ],
+    "text": "  这一尺寸基准须对照实物核对。",
+    "height": 2.85,
+    "align": "left",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      212,
+      77.0
+    ],
+    "text": "材质、折弯R、外圆角、孔口形状、",
+    "height": 2.85,
+    "align": "left",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      212,
+      71.8
+    ],
+    "text": "公差及表面处理均未提供。",
+    "height": 2.85,
+    "align": "left",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      212,
+      66.6
+    ],
+    "text": "不按图片补造沉孔或沉头尺寸。",
+    "height": 2.85,
+    "align": "left",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      212,
+      61.39999999999999
+    ],
+    "text": "未核对的尺寸不用于直接加工。",
+    "height": 2.85,
+    "align": "left",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      15,
+      77
+    ],
+    "text": "已给出的商品参数",
+    "height": 3.6,
+    "align": "left",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      15,
+      69
+    ],
+    "text": "外包络：31×31×19 mm",
+    "height": 3,
+    "align": "left",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      15,
+      63
+    ],
+    "text": "板厚：2 mm；孔径：6 mm",
+    "height": 3,
+    "align": "left",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      15,
+      57
+    ],
+    "text": "竖直面尺寸链：8 / 12 / 9 mm",
+    "height": 3,
+    "align": "left",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      15,
+      51
+    ],
+    "text": "孔横向错位：商家称约5 mm",
+    "height": 3,
+    "align": "left",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      15,
+      45
+    ],
+    "text": "尺寸未给公差；比例仅供阅图",
+    "height": 3,
+    "align": "left",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      15,
+      31
+    ],
+    "text": "视图按直角轮廓示意，实际折弯处有圆角。",
+    "height": 2.8,
+    "align": "left",
+    "layer": "TEXT"
+  },
+  {
+    "type": "line",
+    "start": [
+      206,
+      5
+    ],
+    "end": [
+      292,
+      5
+    ],
+    "layer": "FRAME"
+  },
+  {
+    "type": "line",
+    "start": [
+      292,
+      5
+    ],
+    "end": [
+      292,
+      29
+    ],
+    "layer": "FRAME"
+  },
+  {
+    "type": "line",
+    "start": [
+      292,
+      29
+    ],
+    "end": [
+      206,
+      29
+    ],
+    "layer": "FRAME"
+  },
+  {
+    "type": "line",
+    "start": [
+      206,
+      29
+    ],
+    "end": [
+      206,
+      5
+    ],
+    "layer": "FRAME"
+  },
+  {
+    "type": "line",
+    "start": [
+      206,
+      17
+    ],
+    "end": [
+      292,
+      17
+    ],
+    "layer": "OUTLINE"
+  },
+  {
+    "type": "line",
+    "start": [
+      246,
+      5
+    ],
+    "end": [
+      246,
+      17
+    ],
+    "layer": "OUTLINE"
+  },
+  {
+    "type": "text",
+    "point": [
+      209,
+      21
+    ],
+    "text": "名称：L形角码尺寸参考图",
+    "height": 3,
+    "align": "left",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      209,
+      9
+    ],
+    "text": "图号：REF-L3119-01",
+    "height": 2.8,
+    "align": "left",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      249,
+      9
+    ],
+    "text": "比例2:1 / A4 / 2026-10-14",
+    "height": 2.6,
+    "align": "left",
+    "layer": "TEXT"
+  },
+  {
+    "type": "text",
+    "point": [
+      12,
+      9
+    ],
+    "text": "状态：参考 / 待实测       来源：用户提供商品图及商家回复       非厂家正式加工图",
+    "height": 2.8,
+    "align": "left",
+    "layer": "TEXT"
+  }
+]

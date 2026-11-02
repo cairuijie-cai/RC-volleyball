@@ -1,0 +1,271 @@
+{
+  "schemaVersion": "2.0",
+  "status": "ok",
+  "backend": "ezdxf-readonly",
+  "source": "31x31x19角码_尺寸参考图_毫米1比1.dxf",
+  "fileSize": 69036,
+  "dxfVersion": "AC1024",
+  "units": 4,
+  "entityCount": 46,
+  "typeCounts": {
+    "LWPOLYLINE": 3,
+    "LINE": 10,
+    "CIRCLE": 4,
+    "TEXT": 20,
+    "DIMENSION": 9
+  },
+  "layerCounts": {
+    "OUTLINE": 9,
+    "CENTER": 8,
+    "TEXT": 16,
+    "DIM": 7,
+    "ASSUMED": 6
+  },
+  "layers": [
+    "0",
+    "Defpoints",
+    "OUTLINE",
+    "CENTER",
+    "DIM",
+    "TEXT",
+    "ASSUMED",
+    "FRAME",
+    "HIDDEN"
+  ],
+  "layerDetails": [
+    {
+      "name": "0",
+      "color": 7,
+      "linetype": "Continuous",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "plot": true
+    },
+    {
+      "name": "Defpoints",
+      "color": 7,
+      "linetype": "Continuous",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "plot": false
+    },
+    {
+      "name": "OUTLINE",
+      "color": 7,
+      "linetype": "Continuous",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "plot": true
+    },
+    {
+      "name": "CENTER",
+      "color": 8,
+      "linetype": "Continuous",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "plot": true
+    },
+    {
+      "name": "DIM",
+      "color": 7,
+      "linetype": "Continuous",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "plot": true
+    },
+    {
+      "name": "TEXT",
+      "color": 7,
+      "linetype": "Continuous",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "plot": true
+    },
+    {
+      "name": "ASSUMED",
+      "color": 30,
+      "linetype": "Continuous",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "plot": true
+    },
+    {
+      "name": "FRAME",
+      "color": 7,
+      "linetype": "Continuous",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "plot": true
+    },
+    {
+      "name": "HIDDEN",
+      "color": 8,
+      "linetype": "Continuous",
+      "off": false,
+      "frozen": false,
+      "locked": false,
+      "plot": true
+    }
+  ],
+  "bbox": [
+    [
+      -0.4977297077300922,
+      -10.359428571428571,
+      0.0
+    ],
+    [
+      145.7577142857143,
+      87.36914285714286,
+      0.0
+    ]
+  ],
+  "dimensionEvidence": [
+    {
+      "type": "DIMENSION",
+      "layer": "DIM",
+      "measurement": 19.0,
+      "dimstyle": "EZDXF",
+      "textOverride": "<>"
+    },
+    {
+      "type": "DIMENSION",
+      "layer": "DIM",
+      "measurement": 30.999999999999993,
+      "dimstyle": "EZDXF",
+      "textOverride": "<>"
+    },
+    {
+      "type": "DIMENSION",
+      "layer": "DIM",
+      "measurement": 8.0,
+      "dimstyle": "EZDXF",
+      "textOverride": "<>"
+    },
+    {
+      "type": "DIMENSION",
+      "layer": "DIM",
+      "measurement": 12.0,
+      "dimstyle": "EZDXF",
+      "textOverride": "<>"
+    },
+    {
+      "type": "DIMENSION",
+      "layer": "ASSUMED",
+      "measurement": 9.0,
+      "dimstyle": "EZDXF",
+      "textOverride": "9#"
+    },
+    {
+      "type": "DIMENSION",
+      "layer": "ASSUMED",
+      "measurement": 5.0,
+      "dimstyle": "EZDXF",
+      "textOverride": "5*"
+    },
+    {
+      "type": "DIMENSION",
+      "layer": "DIM",
+      "measurement": 31.0,
+      "dimstyle": "EZDXF",
+      "textOverride": "<>"
+    },
+    {
+      "type": "DIMENSION",
+      "layer": "DIM",
+      "measurement": 19.0,
+      "dimstyle": "EZDXF",
+      "textOverride": "<>"
+    },
+    {
+      "type": "DIMENSION",
+      "layer": "DIM",
+      "measurement": 31.0,
+      "dimstyle": "EZDXF",
+      "textOverride": "<>"
+    }
+  ],
+  "trueDimensionEntityCount": 9,
+  "holeEvidence": [
+    {
+      "layer": "OUTLINE",
+      "center": [
+        52.0,
+        56.0
+      ],
+      "radius": 3.0,
+      "diameter": 6.0
+    },
+    {
+      "layer": "OUTLINE",
+      "center": [
+        57.0,
+        68.0
+      ],
+      "radius": 3.0,
+      "diameter": 6.0
+    },
+    {
+      "layer": "OUTLINE",
+      "center": [
+        52.0,
+        20.0
+      ],
+      "radius": 3.0,
+      "diameter": 6.0
+    },
+    {
+      "layer": "OUTLINE",
+      "center": [
+        57.0,
+        8.0
+      ],
+      "radius": 3.0,
+      "diameter": 6.0
+    }
+  ],
+  "frameCandidates": [],
+  "titleTextKeywords": [
+    "单位",
+    "图号"
+  ],
+  "engineeringChecks": {
+    "layerGroups": {
+      "outline": true,
+      "center": true,
+      "hidden": true,
+      "dimension": true,
+      "text": true,
+      "frame": true
+    },
+    "hasTrueDimensions": true,
+    "hasFrameCandidate": false,
+    "hasTitleBlockEvidence": false,
+    "hasHoleCenters": true
+  },
+  "evaluation": {
+    "status": "warn",
+    "issues": [
+      {
+        "code": "drawing-frame",
+        "message": "缺少图框图层或常见图幅闭合边框"
+      },
+      {
+        "code": "drawing-title-block",
+        "message": "标题栏字段证据不足"
+      }
+    ],
+    "manualReviewRequired": true
+  },
+  "limitations": [
+    "只读 DXF 检查",
+    "不替代 AutoCAD 原生 DWG/PDF 复核"
+  ]
+}

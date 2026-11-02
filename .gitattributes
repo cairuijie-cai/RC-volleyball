@@ -1,0 +1,34 @@
+# Large CAD models, videos and archives are stored with Git LFS.
+"/2026/R4/简陋发球车/60-静应力分析 1.CWR" filter=lfs diff=lfs merge=lfs -text
+"/2026/R5/气缸车（排球 2）(1)/3D_PCB1_2025-06-23.step" filter=lfs diff=lfs merge=lfs -text
+"/2026/排球素材/大连交通大学/VID_20260716_103423.mp4" filter=lfs diff=lfs merge=lfs -text
+"/2026/排球素材/大连交通大学/VID_20260716_103503.mp4" filter=lfs diff=lfs merge=lfs -text
+"/2026/排球素材/大连交通大学/VID_20260716_103545.mp4" filter=lfs diff=lfs merge=lfs -text
+"/2026/排球素材/宁夏工程学院/VID_20260716_104953.mp4" filter=lfs diff=lfs merge=lfs -text
+"/2026/排球素材/宁夏工程学院/VID_20260716_105040.mp4" filter=lfs diff=lfs merge=lfs -text
+"/2026/排球素材/宁夏工程学院/VID_20260716_105251.mp4" filter=lfs diff=lfs merge=lfs -text
+"/2026/排球素材/沈阳工业大学2队/VID_20260716_113043(1).mp4" filter=lfs diff=lfs merge=lfs -text
+"/2026/排球素材/沈阳工业大学2队/VID_20260716_113043.mp4" filter=lfs diff=lfs merge=lfs -text
+"/2026/排球素材/沈阳工业大学2队/VID_20260716_114644.mp4" filter=lfs diff=lfs merge=lfs -text
+"/2026/排球素材/沈阳工业大学2队/VID_20260716_114727.mp4" filter=lfs diff=lfs merge=lfs -text
+"/2026/排球素材/河北工程大学/VID_20260716_103902.mp4" filter=lfs diff=lfs merge=lfs -text
+"/2026/排球素材/河北工程大学/VID_20260716_103913.mp4" filter=lfs diff=lfs merge=lfs -text
+"/2026/排球素材/河北工程大学/VID_20260716_103932.mp4" filter=lfs diff=lfs merge=lfs -text
+"/2026/泡泡轮/OpenTpuOmniWheel-main/OTOW.STEP" filter=lfs diff=lfs merge=lfs -text
+"/2027/素材/RM论坛排球开源/东北大学秦皇岛分校排球1队R1.STEP" filter=lfs diff=lfs merge=lfs -text
+"/2027/素材/RM论坛排球开源/东北大学秦皇岛分校排球1队R2.STEP" filter=lfs diff=lfs merge=lfs -text
+"/2027/素材/RM论坛排球开源/东北大学秦皇岛分校排球2队R1.STEP" filter=lfs diff=lfs merge=lfs -text
+"/2027/素材/RM论坛排球开源/东北大学秦皇岛分校排球2队R2.STEP" filter=lfs diff=lfs merge=lfs -text
+"/2027/素材/RM论坛排球开源/RC2026-福州大学-浮舟湿地-R2排球机器人机械结构开源/RC2026-福州大学-浮舟湿地-R2排球机器人机械结构开源/三维图纸/排球R2.STEP" filter=lfs diff=lfs merge=lfs -text
+"/2027/素材/RM论坛排球开源/RC2026-福州大学-浮舟湿地-R2排球机器人机械结构开源/RC2026-福州大学-浮舟湿地-R2排球机器人机械结构开源/效果展示/接球.mp4" filter=lfs diff=lfs merge=lfs -text
+"/2027/素材/RM论坛排球开源/福州大学-浮舟湿地战队排球机器人R1机械开源/福州大学-浮舟湿地战队排球机器人R1机械开源/功能展示/完整演示.mp4" filter=lfs diff=lfs merge=lfs -text
+"/2027/素材/RM论坛排球开源/福州大学-浮舟湿地战队排球机器人R1机械开源/福州大学-浮舟湿地战队排球机器人R1机械开源/功能展示/慢动作.mp4" filter=lfs diff=lfs merge=lfs -text
+"/2027/素材/RM论坛排球开源/福州大学-浮舟湿地战队排球机器人R1机械开源/福州大学-浮舟湿地战队排球机器人R1机械开源/功能展示/赛场表现.mp4" filter=lfs diff=lfs merge=lfs -text
+"/2027/素材/RM论坛排球开源/福州大学-浮舟湿地战队排球机器人R1机械开源/福州大学-浮舟湿地战队排球机器人R1机械开源/机械图纸/浮舟湿地排球R1.STEP" filter=lfs diff=lfs merge=lfs -text
+"/2027/素材/宇树IM6014/6014快速安装.STEP" filter=lfs diff=lfs merge=lfs -text
+"/2027/素材/宇树IM6014/6014环抱安装.STEP" filter=lfs diff=lfs merge=lfs -text
+"/2027/素材/宇树IM6014/6014赛事推荐安装.STEP" filter=lfs diff=lfs merge=lfs -text
+"/2027/素材/宇树IM6014/IM6014.STEP" filter=lfs diff=lfs merge=lfs -text
+"/2027/素材/宇树IM6014/IM6014_官方固定结构图纸/6014快速安装.STEP" filter=lfs diff=lfs merge=lfs -text
+"/2027/素材/宇树IM6014/IM6014_官方固定结构图纸/6014环抱安装.STEP" filter=lfs diff=lfs merge=lfs -text
+"/2027/素材/宇树IM6014/IM6014_官方固定结构图纸/6014赛事推荐安装.STEP" filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,13 @@
+{
+  "readback": true,
+  "audit_errors": 0,
+  "hole_count": 4,
+  "hole_diameter_mm": 6,
+  "units": "mm",
+  "model_scale": "1:1",
+  "assumed_transverse_centres": [
+    7,
+    12
+  ],
+  "native_application_validation": false
+}
