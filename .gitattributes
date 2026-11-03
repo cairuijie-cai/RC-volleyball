@@ -1,19 +1,6 @@
 # Large CAD models, videos and archives are stored with Git LFS.
 "/2026/R4/简陋发球车/60-静应力分析 1.CWR" filter=lfs diff=lfs merge=lfs -text
 "/2026/R5/气缸车（排球 2）(1)/3D_PCB1_2025-06-23.step" filter=lfs diff=lfs merge=lfs -text
-"/2026/排球素材/大连交通大学/VID_20260716_103423.mp4" filter=lfs diff=lfs merge=lfs -text
-"/2026/排球素材/大连交通大学/VID_20260716_103503.mp4" filter=lfs diff=lfs merge=lfs -text
-"/2026/排球素材/大连交通大学/VID_20260716_103545.mp4" filter=lfs diff=lfs merge=lfs -text
-"/2026/排球素材/宁夏工程学院/VID_20260716_104953.mp4" filter=lfs diff=lfs merge=lfs -text
-"/2026/排球素材/宁夏工程学院/VID_20260716_105040.mp4" filter=lfs diff=lfs merge=lfs -text
-"/2026/排球素材/宁夏工程学院/VID_20260716_105251.mp4" filter=lfs diff=lfs merge=lfs -text
-"/2026/排球素材/沈阳工业大学2队/VID_20260716_113043(1).mp4" filter=lfs diff=lfs merge=lfs -text
-"/2026/排球素材/沈阳工业大学2队/VID_20260716_113043.mp4" filter=lfs diff=lfs merge=lfs -text
-"/2026/排球素材/沈阳工业大学2队/VID_20260716_114644.mp4" filter=lfs diff=lfs merge=lfs -text
-"/2026/排球素材/沈阳工业大学2队/VID_20260716_114727.mp4" filter=lfs diff=lfs merge=lfs -text
-"/2026/排球素材/河北工程大学/VID_20260716_103902.mp4" filter=lfs diff=lfs merge=lfs -text
-"/2026/排球素材/河北工程大学/VID_20260716_103913.mp4" filter=lfs diff=lfs merge=lfs -text
-"/2026/排球素材/河北工程大学/VID_20260716_103932.mp4" filter=lfs diff=lfs merge=lfs -text
 "/2026/泡泡轮/OpenTpuOmniWheel-main/OTOW.STEP" filter=lfs diff=lfs merge=lfs -text
 "/2027/素材/RM论坛排球开源/东北大学秦皇岛分校排球1队R1.STEP" filter=lfs diff=lfs merge=lfs -text
 "/2027/素材/RM论坛排球开源/东北大学秦皇岛分校排球1队R2.STEP" filter=lfs diff=lfs merge=lfs -text
