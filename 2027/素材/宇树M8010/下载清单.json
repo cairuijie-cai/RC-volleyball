@@ -1,0 +1,166 @@
+{
+  "date": "2026-11-03",
+  "model": "GO-M8010-6",
+  "official_doc": "https://support.unitree.com/home/zh/Motor_SDK_Dev_Guide/Download",
+  "sdk_commit": "5b79a42d81cd69adac1367db79efdb972a898fd1",
+  "files": [
+    {
+      "file": "GO-M8010-6电机3D模型.stp",
+      "purpose": "STEP模型",
+      "url": "https://unitree-firmware.oss-cn-hangzhou.aliyuncs.com/tool/GO-M8010-6%E7%94%B5%E6%9C%BA3D%E6%A8%A1%E5%9E%8B.stp",
+      "resolved_url": "https://unitree-firmware.oss-cn-hangzhou.aliyuncs.com/tool/GO-M8010-6%E7%94%B5%E6%9C%BA3D%E6%A8%A1%E5%9E%8B.stp",
+      "bytes": 11179243,
+      "sha256": "36998e0c86a5ca95c983ed59f781e1f607aabfbac1cd32871d9211327f1d4bed",
+      "checks": {
+        "STEP_header_and_end_verified": true
+      }
+    },
+    {
+      "file": "GO-M8010-6电机使用手册_20240515.pdf",
+      "purpose": "中文手册",
+      "url": "https://oss-global-cdn.unitree.com/static/ba47968cb8b54cc0a602d672e51d15c3.pdf",
+      "resolved_url": "https://oss-global-cdn.unitree.com/static/ba47968cb8b54cc0a602d672e51d15c3.pdf",
+      "bytes": 1502548,
+      "sha256": "bd1535dde8caad31830a2f88ba1e8b4e42f8ae0838962d8849f18af7ebeadf88",
+      "checks": {
+        "pages": 19,
+        "title_verified": true
+      }
+    },
+    {
+      "file": "GO-M8010-6_Motor_User_Manual_20240515.pdf",
+      "purpose": "英文手册",
+      "url": "https://oss-global-cdn.unitree.com/static/33c284af73014b2184b18dffe0b5be4c.pdf",
+      "resolved_url": "https://oss-global-cdn.unitree.com/static/33c284af73014b2184b18dffe0b5be4c.pdf",
+      "bytes": 1168206,
+      "sha256": "39a9c4b78b672dc53599ff163a1012217a7e0e2fe3d00ec9a4ead126c417ca15",
+      "checks": {
+        "pages": 17,
+        "title_verified": true
+      }
+    },
+    {
+      "file": "GO-M8010-6官方尺寸图.jpg",
+      "purpose": "尺寸图",
+      "url": "https://oss-global-cdn.unitree.com/static/639223a5a6ff4e1d9222a988805f3a50_1542x628.jpg",
+      "resolved_url": "https://oss-global-cdn.unitree.com/static/639223a5a6ff4e1d9222a988805f3a50_1542x628.jpg",
+      "bytes": 159209,
+      "sha256": "9fb531b668dd6d6f5e5b5e8779a8e4b58c0a197845aeaf88e0e3899fda880748",
+      "checks": {
+        "pixels": [
+          1542,
+          628
+        ]
+      }
+    },
+    {
+      "file": "GO-M8010-6官方接口引脚图.jpg",
+      "purpose": "接口图",
+      "url": "https://oss-global-cdn.unitree.com/static/58cd91efd85548c3b9ceb94db23dca57_1257x867.jpg",
+      "resolved_url": "https://oss-global-cdn.unitree.com/static/58cd91efd85548c3b9ceb94db23dca57_1257x867.jpg",
+      "bytes": 56982,
+      "sha256": "61189061c1d3f2b7fb56ec891d70f0e9d10c07e1465b0c7e5a6a749e3cee5731",
+      "checks": {
+        "pixels": [
+          1257,
+          867
+        ]
+      }
+    },
+    {
+      "file": "GO-M8010-6官方转矩转速曲线.png",
+      "purpose": "转子侧曲线",
+      "url": "https://oss-global-cdn.unitree.com/static/c01d234dd77f472397ce52642c63954d_1213x670.png",
+      "resolved_url": "https://oss-global-cdn.unitree.com/static/c01d234dd77f472397ce52642c63954d_1213x670.png",
+      "bytes": 134245,
+      "sha256": "ccadaab6506f5b2823695df0605c4a47d596ee28d02570e0230ef2fa9488e744",
+      "checks": {
+        "pixels": [
+          1213,
+          670
+        ]
+      }
+    },
+    {
+      "file": "控制开发/unitree_actuator_sdk_5b79a42d81cd.zip",
+      "purpose": "官方C++/Python SDK源代码快照",
+      "url": "https://codeload.github.com/unitreerobotics/unitree_actuator_sdk/zip/5b79a42d81cd69adac1367db79efdb972a898fd1",
+      "resolved_url": "https://codeload.github.com/unitreerobotics/unitree_actuator_sdk/zip/5b79a42d81cd69adac1367db79efdb972a898fd1",
+      "bytes": 9496310,
+      "sha256": "2509eba505610a5c78a97756b6b7e3e9ae2e5918a059fa2de898267ff1ae1791",
+      "checks": {
+        "archive_entries": 351,
+        "CRC_verified": true
+      }
+    },
+    {
+      "file": "控制开发/GoM_ComDemo_STM32_HAL.zip",
+      "purpose": "STM32 HAL通讯例程",
+      "url": "https://oss-global-cdn.unitree.com/static/7af2438fd70548879b80a0068ef159b3.zip",
+      "resolved_url": "https://oss-global-cdn.unitree.com/static/7af2438fd70548879b80a0068ef159b3.zip",
+      "bytes": 632496,
+      "sha256": "73a078dfed4c9a86b9c6e94600039fd05e6fdd03d35597a2216d3378451b6275",
+      "checks": {
+        "archive_entries": 112,
+        "CRC_verified": true
+      }
+    },
+    {
+      "file": "控制开发/4路USB转485多电机例程.zip",
+      "purpose": "多电机通讯例程",
+      "url": "https://oss-global-cdn.unitree.com/static/982515d647c04ffd99ed48d67311517e.zip",
+      "resolved_url": "https://oss-global-cdn.unitree.com/static/982515d647c04ffd99ed48d67311517e.zip",
+      "bytes": 7935,
+      "sha256": "309f61ea23246c1487d3070d62393a54b2fe95145160ef979de922d998df2d3e",
+      "checks": {
+        "archive_entries": 5,
+        "CRC_verified": true
+      }
+    },
+    {
+      "file": "官方文档/关于M8010_官方原文.md",
+      "purpose": "官方文档原文",
+      "url": "https://doc-cdn.unitree.com/8/1484/zh/8_1484_zh",
+      "resolved_url": "https://doc-cdn.unitree.com/8/1484/zh/8_1484_zh",
+      "bytes": 6489,
+      "sha256": "7b99ee402a54e0bae48750954abb9a0fbeef36055fd01f1fc90305200734989c",
+      "checks": {}
+    },
+    {
+      "file": "官方文档/资料下载_官方原文.md",
+      "purpose": "官方文档原文",
+      "url": "https://doc-cdn.unitree.com/8/1483/zh/8_1483_zh",
+      "resolved_url": "https://doc-cdn.unitree.com/8/1483/zh/8_1483_zh",
+      "bytes": 3964,
+      "sha256": "d06af95a7836a51afd46ff8326e2156a339a7f698014a107059e9fb854f71315",
+      "checks": {}
+    },
+    {
+      "file": "官方文档/串口协议_官方原文.md",
+      "purpose": "官方协议原文",
+      "url": "https://doc-cdn.unitree.com/8/107/zh/8_107_zh",
+      "resolved_url": "https://doc-cdn.unitree.com/8/107/zh/8_107_zh",
+      "bytes": 13445,
+      "sha256": "519f73c68d5963df95ec98632ad8156713bdc11d580c3650bad04e0858ed147a",
+      "checks": {}
+    },
+    {
+      "file": "官方文档/获取SDK_官方原文.md",
+      "purpose": "SDK获取说明原文",
+      "url": "https://doc-cdn.unitree.com/8/156/zh/8_156_zh",
+      "resolved_url": "https://doc-cdn.unitree.com/8/156/zh/8_156_zh",
+      "bytes": 3338,
+      "sha256": "dcf6d8a223dd1907b8563d4a8cbceea7d37ed1bc4d7f70744ced4a15a9603bef",
+      "checks": {}
+    },
+    {
+      "file": "官方文档/STM32例程_官方原文.md",
+      "purpose": "STM32例程说明原文",
+      "url": "https://doc-cdn.unitree.com/8/785/zh/8_785_zh",
+      "resolved_url": "https://doc-cdn.unitree.com/8/785/zh/8_785_zh",
+      "bytes": 3801,
+      "sha256": "0eac8088f0661fc2373969d543f60564631acbad90adf8c5412d5548c8a7b2b8",
+      "checks": {}
+    }
+  ]
+}

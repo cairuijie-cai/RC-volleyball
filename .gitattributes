@@ -19,3 +19,4 @@
 "/2027/素材/宇树IM6014/IM6014_官方固定结构图纸/6014快速安装.STEP" filter=lfs diff=lfs merge=lfs -text
 "/2027/素材/宇树IM6014/IM6014_官方固定结构图纸/6014环抱安装.STEP" filter=lfs diff=lfs merge=lfs -text
 "/2027/素材/宇树IM6014/IM6014_官方固定结构图纸/6014赛事推荐安装.STEP" filter=lfs diff=lfs merge=lfs -text
+"/2027/素材/宇树M8010/GO-M8010-6电机3D模型.stp" filter=lfs diff=lfs merge=lfs -text

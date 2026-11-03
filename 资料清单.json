@@ -4845,6 +4845,86 @@
       "path": "2027/素材/官方比赛文件/2026_沙排之王比赛规则_V2_官方原文件.pdf",
       "bytes": 595816,
       "sha256": "e6172fe173f00e7d1ccbc4ba7102d13b5e309062b26d70b1bea6b8afc1d3af05"
+    },
+    {
+      "path": "2027/素材/宇树M8010/GO-M8010-6_Motor_User_Manual_20240515.pdf",
+      "bytes": 1168206,
+      "sha256": "39a9c4b78b672dc53599ff163a1012217a7e0e2fe3d00ec9a4ead126c417ca15"
+    },
+    {
+      "path": "2027/素材/宇树M8010/GO-M8010-6官方尺寸图.jpg",
+      "bytes": 159209,
+      "sha256": "9fb531b668dd6d6f5e5b5e8779a8e4b58c0a197845aeaf88e0e3899fda880748"
+    },
+    {
+      "path": "2027/素材/宇树M8010/GO-M8010-6官方接口引脚图.jpg",
+      "bytes": 56982,
+      "sha256": "61189061c1d3f2b7fb56ec891d70f0e9d10c07e1465b0c7e5a6a749e3cee5731"
+    },
+    {
+      "path": "2027/素材/宇树M8010/GO-M8010-6官方转矩转速曲线.png",
+      "bytes": 134245,
+      "sha256": "ccadaab6506f5b2823695df0605c4a47d596ee28d02570e0230ef2fa9488e744"
+    },
+    {
+      "path": "2027/素材/宇树M8010/GO-M8010-6电机3D模型.stp",
+      "bytes": 11179243,
+      "sha256": "36998e0c86a5ca95c983ed59f781e1f607aabfbac1cd32871d9211327f1d4bed"
+    },
+    {
+      "path": "2027/素材/宇树M8010/GO-M8010-6电机使用手册_20240515.pdf",
+      "bytes": 1502548,
+      "sha256": "bd1535dde8caad31830a2f88ba1e8b4e42f8ae0838962d8849f18af7ebeadf88"
+    },
+    {
+      "path": "2027/素材/宇树M8010/README.md",
+      "bytes": 3253,
+      "sha256": "3327d40ea4afb0ff1eacf2ed9d1285372541d90042d1c16b58ada3a9058f4f73"
+    },
+    {
+      "path": "2027/素材/宇树M8010/下载清单.json",
+      "bytes": 6870,
+      "sha256": "06853ca9b6cf19c2500d560985f8f9c9540ed4c57dc0e68dbac2d643c2745c37"
+    },
+    {
+      "path": "2027/素材/宇树M8010/官方文档/STM32例程_官方原文.md",
+      "bytes": 3801,
+      "sha256": "0eac8088f0661fc2373969d543f60564631acbad90adf8c5412d5548c8a7b2b8"
+    },
+    {
+      "path": "2027/素材/宇树M8010/官方文档/串口协议_官方原文.md",
+      "bytes": 13445,
+      "sha256": "519f73c68d5963df95ec98632ad8156713bdc11d580c3650bad04e0858ed147a"
+    },
+    {
+      "path": "2027/素材/宇树M8010/官方文档/关于M8010_官方原文.md",
+      "bytes": 6489,
+      "sha256": "7b99ee402a54e0bae48750954abb9a0fbeef36055fd01f1fc90305200734989c"
+    },
+    {
+      "path": "2027/素材/宇树M8010/官方文档/获取SDK_官方原文.md",
+      "bytes": 3338,
+      "sha256": "dcf6d8a223dd1907b8563d4a8cbceea7d37ed1bc4d7f70744ced4a15a9603bef"
+    },
+    {
+      "path": "2027/素材/宇树M8010/官方文档/资料下载_官方原文.md",
+      "bytes": 3964,
+      "sha256": "d06af95a7836a51afd46ff8326e2156a339a7f698014a107059e9fb854f71315"
+    },
+    {
+      "path": "2027/素材/宇树M8010/控制开发/4路USB转485多电机例程.zip",
+      "bytes": 7935,
+      "sha256": "309f61ea23246c1487d3070d62393a54b2fe95145160ef979de922d998df2d3e"
+    },
+    {
+      "path": "2027/素材/宇树M8010/控制开发/GoM_ComDemo_STM32_HAL.zip",
+      "bytes": 632496,
+      "sha256": "73a078dfed4c9a86b9c6e94600039fd05e6fdd03d35597a2216d3378451b6275"
+    },
+    {
+      "path": "2027/素材/宇树M8010/控制开发/unitree_actuator_sdk_5b79a42d81cd.zip",
+      "bytes": 9496310,
+      "sha256": "2509eba505610a5c78a97756b6b7e3e9ae2e5918a059fa2de898267ff1ae1791"
     }
   ]
 }
