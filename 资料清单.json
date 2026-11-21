@@ -4925,6 +4925,31 @@
       "path": "2027/素材/宇树M8010/控制开发/unitree_actuator_sdk_5b79a42d81cd.zip",
       "bytes": 9496310,
       "sha256": "2509eba505610a5c78a97756b6b7e3e9ae2e5918a059fa2de898267ff1ae1791"
+    },
+    {
+      "path": "2027/发球机器人/发球机器人/底盘/130连接件 雕刻件.SLDPRT",
+      "bytes": 125231,
+      "sha256": "becb40459d3d86869a9b281673f8bcceb240550687778230214a3438df27b4fd"
+    },
+    {
+      "path": "2027/发球机器人/发球机器人/底盘/电机连接键.SLDPRT",
+      "bytes": 122500,
+      "sha256": "5a0ff8df9d18ca8d62c7eac6a968464adc779d7a204963e76fcbfda5eb3879c4"
+    },
+    {
+      "path": "2027/发球机器人/发球机器人/排球顶球机构/夹爪内侧垫片 打印件.SLDPRT",
+      "bytes": 77643,
+      "sha256": "698c5547c434455bbe1c85ca370b61d89f6fb46dcf75bc3550c0fc96eb7ecd84"
+    },
+    {
+      "path": "2027/发球机器人/发球机器人/连接/架 横梁 下连接，雕刻件.SLDPRT",
+      "bytes": 109304,
+      "sha256": "5f6323b823599303fe1f156aa82b7f63aacae916dd30db2ad5bad3ee8162637f"
+    },
+    {
+      "path": "2027/素材/官方比赛文件/2027_沙排之王比赛规则_V1_官方原文件.pdf",
+      "bytes": 494135,
+      "sha256": "84b5ae1a3c8be7ad1b37f4bd484dc87214b57ac7f4e34082f04878b85b4c273a"
     }
   ]
 }
